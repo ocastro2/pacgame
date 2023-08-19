@@ -13,6 +13,24 @@
     margin-top: 75px; */
     columns: auto;
 }
+#start {
+    
+    width: 100px;
+    height: 50px;
+    background-color: rgb(27, 169, 51);
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+
+}
 #world{
     width: 642px;
     height: 521px;
