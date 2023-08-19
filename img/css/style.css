@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+#bod{
+    background-color: aqua;
+    display: flex;
+    width: 993px;
+    /* margin-left: 230px;
+    margin-top: 75px; */
+    columns: auto;
+}
+#world{
+    width: 642px;
+    height: 521px;
+    background-color: black;
+    
+    border: 1px solid #f94545;
+}
+#score{
+    /* color: crimson; */
+    font-size: 30px;
+    
+    padding: 10px;
+    background-color: rgb(27, 169, 51);
+    display: flex;
+    justify-content: center;
+    width: 350px;
+}
+.row{
+line-height: 0;
+}
+.wall{
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    /* border: 1px solid #fff; */
+    margin: 0 auto;
+}
+.sushi{
+    background-color: black;
+    background-image: url(../img/sushi.png);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    /* border: 1px solid #fff; */
+    margin: 0 auto;
+} 
+.rice{
+    background-color: black;
+    background-image: url(../img/onigiri.png);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    /* border: 1px solid #fff; */
+    background-repeat: no-repeat;
+    margin: 0 auto;
+} 
+.space{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-size: contain;
+    /* border: 1px solid #fff; */
+    margin: 0 auto;
+}
+
+
+#pacman {
+    /* background-color: black; */
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-size: contain;
+    background-image: url(../img/ninja.gif);
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+#ghost {
+    /* background-color: black; */
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-size: contain;
+    background-image: url(../img/red.gif);
+    position: absolute;
+    left: 320px;
+    top: 280px;
+}
+
